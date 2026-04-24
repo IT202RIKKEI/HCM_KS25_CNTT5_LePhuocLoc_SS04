@@ -44,7 +44,7 @@ WHERE product_id = 4 OR price < 1000000;
 
 
 -- TRUY VẤN
-
+SELECT * FROM Product;
 SELECT * FROM Products WHERE stock > 15;
 SELECT * FROM Products WHERE Price >= 1000000 AND Price <= 25000000;
 SELECT * FROM Products WHERE product_name <> 'iPhone 15' AND stock > 0;
